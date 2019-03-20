@@ -1,0 +1,82 @@
+1.哪一年毕业？
+
+2.上一家公司在哪？
+
+
+1.什么是盒子模型？
+
+2.px和rem的区别？
+
+（1）请描述一下cookies、sessionStorage和localStorage区别？
+cookie是网站为了标示用户身份而储存在用户本地终端（Client Side）上的数据（通常经过加密）。
+cookie数据始终在同源的http请求中携带（即使不需要），即会在浏览器和服务器间来回传递。
+sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存
+存储大小：
+cookie数据大小不能超过4K。
+sessionStorage和localStorage虽然也有存储大小的限制，但比cookie大得多，可以达到5M或更大。
+有期时间：
+localStorage：存储持久数据，浏览器关闭后数据不丢失除非主动删除数据；
+sessionStorage：数据在当前浏览器窗口关闭后自动删除
+cookie：设置的cookie过期时间之前一直有效，即使窗口或浏览器关闭
+
+
+---------------
+
+display有哪些值？ block none inline inline-block table 
+
+
+-----------------------
+
+ajax请求的时候get 和post方式的区别
+
+Get 一般用于获取信息
+
+    使用URL传递参数
+
+    对所发送的信息数量也有限制，一般在2000字符
+
+Post 一般用于修改服务器资源（新建，或者 修改）
+
+对所发送的信息数量无限制
+
+---------------
+
+3.什么是vue生命周期？
+答： Vue 实例从创建到销毁的过程，就是生命周期。从开始创建、初始化数据、编译模板、挂载Dom→渲染、更新→渲染、销毁等一系列过程，称之为 Vue 的生命周期。
+
+-----------
+
+4.DOM 渲染在 哪个周期中就已经完成？
+答：DOM 渲染在 mounted 中就已经完成了。
+
+----------
+
+2、怎么定义 vue-router 的动态路由? 怎么获取传过来的值
+	在 router 目录下的 index.js 文件中，对 path 属性加上 /:id
+	使用 router 对象的 params.id 获取
+
+-------------------------
+
+5.v-if和v-show的区别？
+
+v-show指令是通过修改元素的displayCSS属性让其显示或者隐藏
+v-if指令是直接销毁和重建DOM达到让元素显示和隐藏的效果
+
+------------------------------
+
+5.vue几种常用的指令
+答：v-for 、 v-if 、v-bind、v-on、v-show、v-else
+
+6.父组件传给子组件 -------- 子组件通过props方法接受数据;
+
+7.子组件传给父组件 -------- $emit方法传递参数
+
+8.对keep-alive 的了解？
+答：keep-alive是 Vue 内置的一个组件，可以使被包含的组件保留状态，或避免重新渲染。
+
+
+21、axios是什么？怎么使用？
+
+答：请求后台资源的模块。npm install axios --save装好，
+
+js中使用import进来，然后.get或.post。返回在.then函数中如果成功，失败则是在.catch函数中

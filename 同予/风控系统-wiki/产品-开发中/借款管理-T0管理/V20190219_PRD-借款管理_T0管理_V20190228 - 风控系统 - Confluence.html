@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <title>V20190219_PRD-借款管理/风控管理_V20190228 - 风控系统 - Confluence</title>
+    
+        
+
+                        
+    
+                        
+    
+
+                
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="http://47.96.87.183:8090">
+
+<meta id="atlassian-token" name="atlassian-token" content="4b790e2fd79fc4d8a36feff6318267117b830944">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="XDXT">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1551507861514">
+        
+    
+        
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            <meta name="ajs-discovered-plugin-features" content="{}">
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-keyboardshortcut-hash" content="91245070e8d0152292d80871cea7a26">
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 451px;}.theme-default .ia-splitter #main {margin-left: 451px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            
+
+    
+            
+    
+    
+            <meta name="ajs-page-id" content="4654139">
+            <meta name="ajs-latest-page-id" content="4654139">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-page-title" content="V20190219_PRD-借款管理/风控管理_V20190228">
+            <meta name="ajs-parent-page-title" content="XDXT-产品-开发中">
+            <meta name="ajs-parent-page-id" content="4653821">
+            <meta name="ajs-space-key" content="XDXT">
+            <meta name="ajs-space-name" content="风控系统">
+            <meta name="ajs-jira-metadata-count" content="-1">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-user-display-name" content="赵杰">
+            <meta name="ajs-editor.loader.comment.resources" content="&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/c943b9b5c77015e2a928cffb26b6aac3/_/download/contextbatch/css/comment-editor/batch.css&quot; media=&quot;all&quot;&gt;
+">
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="http://47.96.87.183:8090">
+            <meta name="ajs-version-number" content="5.6.6">
+            <meta name="ajs-build-number" content="5639">
+            <meta name="ajs-remote-user" content="zhaojie">
+            <meta name="ajs-current-user-fullname" content="赵杰">
+            <meta name="ajs-current-user-avatar-url" content="/images/icons/profilepics/default.png">
+            <meta name="ajs-static-resource-url-prefix" content="/s/zh_CN/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="10485760">
+            <meta name="ajs-user-locale" content="en_GB">
+            <meta name="ajs-enabled-dark-features" content="notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageEditedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.tasklist.event.SendTaskEmailEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageMovedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.follow.FollowEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareContentEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.mentions.api.ConfluenceMentionEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.attachment.AttachmentBatchUploadCompletedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.security.ForgotPasswordEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.like.LikeCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostMovedEvent">
+            <meta name="ajs-atl-token" content="4b790e2fd79fc4d8a36feff6318267117b830944">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
+            <meta name="ajs-editor.loader.resources" content="&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/d1026f6ef254456b53b5466d03fd862a/_/download/contextbatch/css/editor,macro-browser,fullpage-editor,-viewcontent,-atl.general/batch.css&quot; media=&quot;all&quot;&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/d1026f6ef254456b53b5466d03fd862a/_/download/contextbatch/css/editor,macro-browser,fullpage-editor,-viewcontent,-atl.general/batch.css?media=%28max-width%3A+1450px%29&quot; media=&quot;(max-width: 1450px)&quot;&gt;
+&lt;!--[if lt IE 9]&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/d1026f6ef254456b53b5466d03fd862a/_/download/contextbatch/css/editor,macro-browser,fullpage-editor,-viewcontent,-atl.general/batch.css?conditionalComment=lt+IE+9&quot; media=&quot;all&quot;&gt;
+&lt;![endif]--&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/s/44c188d96462574158b56beef44dbc94-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/d1026f6ef254456b53b5466d03fd862a/_/download/contextbatch/js/editor,macro-browser,fullpage-editor,-viewcontent,-atl.general/batch.js?locale=en-GB&quot; &gt;&lt;/script&gt;
+">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="http://wiki.tongyufintech.cn:8090/s/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://wiki.tongyufintech.cn:8090/s/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.tongyufintech.cn:8090/opensearch/osd.action" title="Confluence">
+    
+                    
+            <meta name="ajs-create-issue-metadata-show-discovery" content="true">
+            
+
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\"\"";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\"daysBeforeLicenseExpiry\":0,\"daysBeforeMaintenanceExpiry\":0,\"showLicenseExpiryBanner\":false,\"showMaintenanceExpiryBanner\":false,\"renewUrl\":null,\"salesEmail\":null}";
+</script>
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/batch.css" media="all">
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/batch(1).css" media="print">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/20/_/download/superbatch/css/batch.css?conditionalComment=lt+IE+9" media="all">
+<![endif]-->
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/20/_/download/superbatch/css/batch.css?conditionalComment=lte+IE+8" media="all">
+<![endif]-->
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/20/_/download/superbatch/css/batch.css?conditionalComment=lte+IE+9" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/batch(2).css" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/6c0981174e94142364564819dc0d1413-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/3d3a5c2602d48415194824d2d81e087a/_/download/contextbatch/css/page,viewcontent,atl.general,main,atl.confluence.plugins.pagetree-desktop,plugin.quick.comment.pre/batch.css?conditionalComment=lt+IE+9&amp;highlightactions=true&amp;locale=en-GB&amp;flavour=VANILLA&amp;hostenabled=true" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/batch(3).css" media="all">
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/com.atlassian.confluence.plugins.confluence-space-ia_fd-slider.css" media="all">
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/com.atlassian.confluence.plugins.confluence-space-ia_avatar-picker.css" media="all">
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/com.atlassian.confluence.plugins.confluence-space-ia_spacesidebar.css" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/8.3/_/download/batch/com.atlassian.confluence.plugins.confluence-space-ia:spacesidebar/com.atlassian.confluence.plugins.confluence-space-ia:spacesidebar.css?conditionalComment=lt+IE+9" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/confluence.extra.jira_web-resources-adg.css" media="all">
+<script type="text/javascript" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/batch.js.下载"></script>
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/s/6c0981174e94142364564819dc0d1413-CDN/en_GB/5639/a252d7f5e75d7a8bf7047b4b2c92f71a56a8f048.1/20/_/download/superbatch/js/batch.js?conditionalComment=lte+IE+8&amp;locale=en-GB" ></script>
+<![endif]-->
+<script type="text/javascript" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/batch.js(1).下载"></script><style type="text/css"></style>
+<script type="text/javascript" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/batch.js(2).下载"></script>
+<script type="text/javascript" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/com.atlassian.confluence.plugins.confluence-space-ia_soy-resources.js.下载"></script>
+<script type="text/javascript" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/com.atlassian.confluence.plugins.confluence-space-ia_fd-slider.js.下载"></script>
+<script type="text/javascript" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/com.atlassian.confluence.plugins.confluence-space-ia_avatar-picker.js.下载"></script>
+<script type="text/javascript" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/com.atlassian.confluence.plugins.confluence-space-ia_spacesidebar.js.下载"></script>
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/colors.css" media="all">
+<link type="text/css" rel="stylesheet" href="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/default-theme.css" media="all">
+
+
+        
+        
+
+    
+                <link rel="canonical" href="http://47.96.87.183:8090/pages/viewpage.action?pageId=4654139">
+        <link rel="shortlink" href="http://47.96.87.183:8090/x/OwRH">
+    <meta name="wikilink" content="[XDXT:V20190219_PRD-借款管理/风控管理_V20190228]">
+    <meta name="page-version" content="77">
+
+</head>
+
+<body onload="placeFocus()" id="com-atlassian-confluence" class=" theme-default  aui-layout aui-theme-default" data-aui-version="5.4.4-CONFDEV-21873">
+
+        
+            <div id="stp-licenseStatus-banner"></div>
+    <ul id="assistive-skip-links" class="assistive">
+    <li><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#title-heading">Skip to content</a></li>
+    <li><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#breadcrumbs">Skip to breadcrumbs</a></li>
+    <li><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#header-menu-bar">Skip to header menu</a></li>
+    <li><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#navigation">Skip to action menu</a></li>
+    <li><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#quick-search-query">Skip to quick search</a></li>
+</ul>
+<div id="page">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+    
+
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation" data-aui-responsive="true"><div class="aui-header-inner"><div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-custom"><a href="http://wiki.tongyufintech.cn:8090/"><img src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/confluence-logo.png" alt="Confluence" data-aui-responsive-header-index="0"></a></h1><ul class="aui-nav" style="width: auto;">
+                            <li>
+            
+        
+        
+<a id="space-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" aria-haspopup="true" aria-owns="space-menu-link-content" title="Spaces"><span class="browse">Spaces</span><span class="aui-icon-dropdown"></span></a><div id="space-menu-link-content" class="aui-dropdown2 aui-style-default aui-dropdown2-in-header" aria-hidden="false"></div>
+        </li>
+                    <li>
+            
+    
+        
+<a id="people-directory-link" href="http://wiki.tongyufintech.cn:8090/peopledirectory.action" class=" aui-nav-imagelink" title="People">
+            <span>People</span>
+    </a>
+        </li>
+                                            <li style="display: none;"><a id="aui-responsive-header-dropdown-trigger-0" class="aui-dropdown2-trigger" aria-owns="aui-responsive-header-dropdown-content-0" aria-haspopup="true" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#">More<span class="icon aui-icon-dropdown"></span></a><div id="aui-responsive-header-dropdown-content-0" class="aui-dropdown2 aui-style-default"><div class="aui-dropdown2-section"><ul id="aui-responsive-header-dropdown-list-0"></ul></div></div></li><li>
+            
+    
+            
+<a id="create-page-button" href="http://wiki.tongyufintech.cn:8090/pages/createpage.action?spaceKey=XDXT&amp;fromPageId=4654139" class="aui-button aui-style aui-button-primary aui-nav-imagelink" title="Create Content">
+            <span>Create</span>
+    </a>
+        </li>
+        </ul>
+</div><div class="aui-header-secondary"><ul class="aui-nav">
+                        <li>
+        <form id="quick-search" class="aui-quicksearch dont-default-focus header-quicksearch" action="http://wiki.tongyufintech.cn:8090/dosearchsite.action" method="get"><fieldset><label for="quick-search-query" class="assistive">Quick Search</label><input id="quick-search-query" class="text app-search search quick-search-query" type="text" accesskey="q" autocomplete="off" name="queryString" title="Quick Search" placeholder="Search"><input id="quick-search-submit" class="quick-search-submit" type="submit" value="Search"><div class="aui-dd-parent quick-nav-drop-down"></div></fieldset></form>
+    </li>
+        <li>
+            
+        <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" aria-haspopup="true" aria-owns="help-menu-link-content" title="Help">
+        <span class="aui-icon aui-icon-small aui-iconfont-help">Help</span>
+    </a>
+    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default" aria-hidden="true">
+                    <div class="aui-dropdown2-section">
+                                    <strong></strong>
+                                <ul id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+        
+            
+<a id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-56/Getting+Help+And+Support" class="interactive" title="Visit the Confluence documentation home" target="_blank">
+        Online Help
+</a>
+</li>
+                                            <li>
+    
+                
+<a id="keyboard-shortcuts-link" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" class="interactive" title="View available keyboard shortcuts">
+        Keyboard Shortcuts
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="feed-builder-link" href="http://wiki.tongyufintech.cn:8090/dashboard/configurerssfeed.action" class="interactive" title="Create your custom RSS feed.">
+        Feed Builder
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="whats-new-menu-link" href="https://docs.atlassian.com/confluence/docs-56/whatsnew/iframe?od=false&amp;a=false" class="interactive" title="">
+        What’s new
+</a>
+</li>
+                                            <li>
+    
+                
+<a id="gadget-directory-link" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" class="user-item administration-link  interactive" title="Browse gadgets provided by Confluence">
+        Available Gadgets
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="confluence-about-link" href="http://wiki.tongyufintech.cn:8090/aboutconfluencepage.action" class="interactive" title="Get more information about Confluence">
+        About Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    
+    </li>
+        <li>
+                
+    
+    </li>
+        <li>
+                    
+        
+            
+<a id="notifications-anchor" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" class="mw-anchor read aui-nav-imagelink" title=""><div class="badge-i aui-icon aui-icon-small"><span class="badge-w"><span class="badge"></span></span></div></a>
+    
+    </li>
+        <li>
+                                            
+        <a id="user-menu-link" class="aui-dropdown2-trigger " aria-haspopup="true" aria-owns="user-menu-link-content" data-username="zhaojie" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" title="赵杰">
+                    <div class="aui-avatar aui-avatar-small">
+                <div class="aui-avatar-inner">
+                    <img src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/default.png">
+                </div>
+            </div>
+            <span class="aui-icon-dropdown"></span>
+        </a>
+        <nav id="user-menu-link-content" class="aui-dropdown2 aui-style-default">
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-preferences" class="aui-list-truncate section-user-preferences first">
+                                                    <li>
+        
+            
+<a id="create-personal-space-link" href="http://wiki.tongyufintech.cn:8090/spaces/createpersonalspace.action" class="   user-item personal-space create-personal-space-link " title="">
+        Add Personal Space…
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="view-user-history-link" href="http://wiki.tongyufintech.cn:8090/users/viewuserhistory.action" class="   user-item user-history popup-link " title="">
+        Recently Viewed
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-content" class="aui-list-truncate section-user-content">
+                                                    <li>
+    
+            
+<a id="view-user-profile-link" href="http://wiki.tongyufintech.cn:8090/users/viewmyprofile.action" class="   user-item user-profile " title="">
+        Profile
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="view-mytasks-link" href="http://wiki.tongyufintech.cn:8090/plugins/inlinetasks/mytasks.action" class="   user-item list-user-status " title="">
+        Tasks
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-favourites-link" href="http://wiki.tongyufintech.cn:8090/users/viewmyfavourites.action" class="   user-item " title="">
+        Favourites
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-watches-link" href="http://wiki.tongyufintech.cn:8090/users/viewnotifications.action" class="   user-item " title="">
+        Watches
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-drafts-link" href="http://wiki.tongyufintech.cn:8090/users/viewmydrafts.action" class="   user-item " title="">
+        Drafts
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-network-link" href="http://wiki.tongyufintech.cn:8090/users/viewfollow.action?username=zhaojie" class="   follow-link " title="">
+        Network
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-settings-link" href="http://wiki.tongyufintech.cn:8090/users/viewmysettings.action" class="   user-item " title="">
+        Settings
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="upm-requests-link" href="http://wiki.tongyufintech.cn:8090/plugins/servlet/upm/requests?source=header_user" class="    " title="">
+        Atlassian Marketplace
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-operations" class="aui-list-truncate section-user-operations">
+                                                    <li>
+    
+            
+<a id="logout-link" href="http://wiki.tongyufintech.cn:8090/logout.action" class="   user-item logout-link " title="">
+        Log Out
+</a>
+</li>
+                                            </ul>
+                </div>
+                    </nav>
+                    
+    </li>
+    </ul>
+</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+    <br class="clear">
+</header>
+
+    
+    	<div class="ia-splitter">
+    		<div class="ia-splitter-left">
+    			<div class="ia-fixed-sidebar" style="width: 451px; visibility: visible; top: 41px; left: 0px;">
+    				
+	    	<div class="acs-side-bar ia-scrollable-section"><div class="acs-side-bar-space-info tipsy-enabled" data-configure-tooltip="Edit space details"><div class="avatar"><div class="space-logo " data-key="XDXT" data-name="风控系统" data-entity-type="confluence.space"><div class="avatar-img-container"><div class="avatar-img-wrapper"><a href="http://wiki.tongyufintech.cn:8090/display/XDXT" title="风控系统"><img class="avatar-img" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/default-space-logo-256.png" alt="风控系统"></a></div></div></div></div><div class="name"><a href="http://wiki.tongyufintech.cn:8090/display/XDXT" title="风控系统">风控系统</a></div><div class="flyout-handle icon"></div></div><div class="acs-side-bar-content"><div class="acs-nav-wrapper"><div class="acs-nav" data-has-create-permission="true" data-quick-links-state="null" data-nav-type="page-tree"><div class="acs-nav-sections"><div class="main-links-section "><ul class="acs-nav-list"><li class="acs-nav-item wiki current-item" data-collector-key="spacebar-pages"><a class="acs-nav-item-link tipsy-enabled" href="http://wiki.tongyufintech.cn:8090/collector/pages.action?key=XDXT" data-collapsed-tooltip="Pages"><span class="icon"></span><span class="acs-nav-item-label">Pages</span></a></li><li class="acs-nav-item blog" data-collector-key="spacebar-blogs"><a class="acs-nav-item-link tipsy-enabled" href="http://wiki.tongyufintech.cn:8090/pages/viewrecentblogposts.action?key=XDXT" data-collapsed-tooltip="Blog"><span class="icon"></span><span class="acs-nav-item-label">Blog</span></a></li></ul></div><div class="quick-links-wrapper"><h5 class="ia-quick-links-header-title">Space shortcuts</h5><p class="tip">Here you can add shortcut links to the most important content for your team or project. <a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139" class="configure-sidebar">Configure sidebar</a>.</p></div></div></div></div><div class="ia-secondary-container tipsy-enabled" data-tree-type="page-tree"><div class="ia-secondary-header"><h5 class="ia-secondary-header-title page-tree"><span class="icon"></span><span class="label">Page tree</span></h5></div><div class="ia-secondary-content">
+
+
+<div class="plugin_pagetree">
+
+        
+        
+    <ul class="plugin_pagetree_children_list plugin_pagetree_children_list_noleftspace">
+        <div class="plugin_pagetree_children" id="children4653810-0">
+        <div class="plugin_pagetree_children_loading_wrapper"><div class="spinner"><svg height="17.03333333333333" version="1.1" width="17.03333333333333" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative; top: -0.875px;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="#666666" d="M8.516666666666666,4.433333333333333L8.516666666666666,1.5166666666666657" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.9166666666666666" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.916667;"></path><path fill="none" stroke="#666666" d="M10.558333333333332,4.980396267880208L12.016666666666666,2.4544888401755944" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0;"></path><path fill="none" stroke="#666666" d="M12.052937065453122,6.475L14.578844493157735,5.016666666666666" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.08333333333333333" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.0833333;"></path><path fill="none" stroke="#666666" d="M12.599999999999998,8.516666666666666L15.516666666666666,8.516666666666666" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.16666666666666666" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.166667;"></path><path fill="none" stroke="#666666" d="M12.052937065453124,10.558333333333332L14.578844493157737,12.016666666666664" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.25;"></path><path fill="none" stroke="#666666" d="M10.558333333333334,12.052937065453122L12.016666666666667,14.578844493157735" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.3333333333333333" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.333333;"></path><path fill="none" stroke="#666666" d="M8.516666666666666,12.599999999999998L8.516666666666666,15.516666666666666" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.4166666666666667" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.416667;"></path><path fill="none" stroke="#666666" d="M6.475,12.052937065453124L5.0166666666666675,14.578844493157737" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.5;"></path><path fill="none" stroke="#666666" d="M4.980396267880209,10.558333333333334L2.454488840175596,12.016666666666667" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.5833333333333334" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.583333;"></path><path fill="none" stroke="#666666" d="M4.433333333333333,8.516666666666666L1.5166666666666657,8.516666666666666" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.6666666666666666" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.666667;"></path><path fill="none" stroke="#666666" d="M4.980396267880207,6.475000000000001L2.4544888401755927,5.01666666666667" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.75" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.75;"></path><path fill="none" stroke="#666666" d="M6.474999999999998,4.980396267880209L5.016666666666662,2.454488840175596" stroke-width="1.5166666666666666" stroke-linecap="round" opacity="0.8333333333333334" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; opacity: 0.833333;"></path></svg></div><span class="plugin_pagetree_children_loading">Loading...</span></div></div>
+    </ul>
+
+    <fieldset class="hidden">
+        <input type="hidden" name="treeId" value="">
+        <input type="hidden" name="treeRequestId" value="/plugins/pagetree/naturalchildren.action?decorator=none&amp;excerpt=false&amp;sort=position&amp;reverse=false&amp;disableLinks=false&amp;expandCurrent=true">
+        <input type="hidden" name="treePageId" value="4654139">
+
+        <input type="hidden" name="noRoot" value="false">
+        <input type="hidden" name="rootPageId" value="4653810">
+
+        <input type="hidden" name="rootPage" value="">
+        <input type="hidden" name="startDepth" value="0">
+        <input type="hidden" name="spaceKey" value="XDXT">
+
+        <input type="hidden" name="i18n-pagetree.loading" value="Loading...">
+        <input type="hidden" name="i18n-pagetree.error.permission" value="Unable to load page tree. It seems that you do not have permission to view the root page.">
+        <input type="hidden" name="i18n-pagetree.eeror.general" value="There was a problem retrieving the page tree. Please check the server log file for more information.">
+        <input type="hidden" name="loginUrl" value="/login.action?os_destination=%2Fpages%2Fviewpage.action%3FpageId%3D4654139">
+        <input type="hidden" name="mobile" value="false">
+
+                <fieldset class="hidden">
+                                                <input type="hidden" name="ancestorId" value="4653821">
+                                    <input type="hidden" name="ancestorId" value="4653814">
+                                    <input type="hidden" name="ancestorId" value="4653810">
+                                    </fieldset>
+    </fieldset>
+</div>
+</div></div></div><div class="hidden"><a href="http://wiki.tongyufintech.cn:8090/collector/pages.action?key=XDXT" id="space-pages-link"></a><script type="text/x-template" title="logo-config-content"><h2>Space details</h2><form id="crop-photo-form" class="aui" method="post" action="#"><div id="sidebar-logo-messages"></div><fieldset><div class="field-group"><label for="spaceName">Name</label><input autocomplete="off" name="spaceName" id="spaceName" class="text" maxlength="255" value="{spaceName}"><input type="hidden" name="spaceKey" id="spaceKey" value="XDXT"><input type="hidden" name="offsetX" id="avatar-offsetX" value="-1"><input type="hidden" name="offsetY" id="avatar-offsetY" value="-1"><input type="hidden" name="width" id="avatar-width" value="-1"><input type="hidden" name="logoType" id="logoType" value="default" data-last-value="default"></div></fieldset></form><form id="upload-logo-form" class="aui" method="POST" action="#" enctype="multipart/form-data"><fieldset class="group"><legend><span>Logo</span></legend><div class="field-group"><input class="upload" type="file" id="upload-logo-input" name="upload-logo-input"></div><small class="hidden"><a href="#" id="reset-logo">Reset to default logo</a></small><div id="image-holder" /></fieldset></form><div id="space-details-actions" class="buttons-container"><div class="buttons"><button class="aui-button save">sidebar.main.configure.flyout.save</button><a href="#" class="aui-button aui-button-link cancel">sidebar.main.configure.flyout.cancel</a></div></div></script></div></div><div class="space-tools-section"><div id="space-tools-menu-additional-items" class="hidden"><div data-label="Reorder pages" data-class="" data-href="/pages/reorderpages.action?key=XDXT">Reorder pages</div><div data-label="Configure sidebar" data-class="configure-sidebar" data-href="">Configure sidebar</div></div><div id="space-tools-dd-dummy"></div><a id="space-tools-menu-trigger" class="aui-button aui-button-subtle aui-dropdown2-trigger tipsy-enabled" aria-owns="space-tools-dd-dummy" data-collapsed-tooltip="Space tools"><span class="aui-icon aui-icon-small aui-iconfont-configure">Configure</span><span class="label">Space tools</span></a><a class="expand-collapse-trigger" data-tooltip="Collapse sidebar ( [ )"></a></div>
+    
+    			<div class="ia-splitter-handle tipsy-enabled" data-tooltip="Collapse sidebar ( [ )"><div class="ia-splitter-handle-highlight"></div></div></div>
+    		</div>
+        <!-- \#header -->
+
+        
+        <div id="main" class=" aui-page-panel" style="margin-left: 451px;">
+                <div id="main-header">
+            
+    <div id="navigation" class="content-navigation view">
+                    <ul class="ajs-menu-bar">
+                            <li class="ajs-button normal">
+
+    
+        
+                            
+    
+    
+    <a id="editPageLink" href="http://wiki.tongyufintech.cn:8090/pages/editpage.action?pageId=4654139" rel="nofollow" class="edit" accesskey="e" title="Edit">
+                <span><u>E</u>dit</span>    </a>
+</li>
+                <li class="ajs-button normal">
+
+    
+        
+                            
+    
+    
+    <a id="watch-content-button" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?watchingPage=true&amp;watchingSpace=false&amp;watchingBlogs=false&amp;isAdmin=true&amp;isBlogPost=false" rel="nofollow" class="watch-menu watching" title="Watch (w)">
+                <span><u>W</u>atch</span>    </a>
+</li>
+                        
+        <li class="normal ajs-menu-item">
+        <a id="add-menu-link" class="add hidden ajs-menu-title aui-dropdown2-trigger" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" aria-haspopup="true" aria-owns="add-menu" data-container="#navigation"><span><span>Add</span></span></a>         <div id="add-menu" class="aui-dropdown2 aui-style-default">
+                            <ul id="add-menu-space" class="section-space first aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                            
+    
+    
+    <a id="createPageLink" href="http://wiki.tongyufintech.cn:8090/pages/createpage.action?spaceKey=XDXT&amp;fromPageId=4654139" rel="nofollow" class="add-page" accesskey="p" title="Add a Page">
+                <span>Page</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="createBlogpostLink" href="http://wiki.tongyufintech.cn:8090/pages/createblogpost.action?spaceKey=XDXT" rel="nofollow" class="add-news" title="Add a Blog Post">
+                <span>Blog Post</span>    </a>
+</li>
+                                </ul>
+                            <ul id="add-menu-page" class="section-page aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                            
+    
+    
+    <a id="add-comment-menu-link" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139&amp;showComments=true&amp;showCommentArea=true#addcomment" rel="nofollow" class="add-comment" title="Add a Comment">
+                <span>Comment</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="add-attachment-link" href="http://wiki.tongyufintech.cn:8090/pages/viewpageattachments.action?pageId=4654139" rel="nofollow" class="add-attachment" accesskey="t" title="Add an Attachment">
+                <span>Attachment</span>    </a>
+</li>
+                                </ul>
+                    </div>
+    </li>
+                    
+        <li class="normal ajs-menu-item">
+        <a id="action-menu-link" class="action ajs-menu-title aui-dropdown2-trigger" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" aria-haspopup="true" aria-owns="action-menu" data-container="#navigation"><span><span>Tools</span></span></a>         <div id="action-menu" class="aui-dropdown2 aui-style-default most-right-menu-item">
+                            <ul id="action-menu-primary" class="section-primary first aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                            
+    
+    
+    <a id="view-attachments-link" href="http://wiki.tongyufintech.cn:8090/pages/viewpageattachments.action?pageId=4654139" rel="nofollow" class="action-view-attachments" accesskey="t" title="View Attachments">
+                <span>A<u>t</u>tachments (130)</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="action-view-history-link" href="http://wiki.tongyufintech.cn:8090/pages/viewpreviousversions.action?pageId=4654139" rel="nofollow" class="action-view-history" title="">
+                <span>Page History</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="action-page-permissions-link" href="http://wiki.tongyufintech.cn:8090/pages/viewinfo.action?pageId=4654139" rel="nofollow" class="action-page-permissions" title="Edit restrictions">
+                <span>Restrictions</span>    </a>
+</li>
+                                </ul>
+                            <ul id="action-menu-marker" class="section-marker aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                            
+    
+    
+    <a id="page-favourite" href="http://wiki.tongyufintech.cn:8090/labels/addfavourite.action?entityId=4654139&amp;atl_token=4b790e2fd79fc4d8a36feff6318267117b830944" rel="nofollow" class="action-page-favourite" title="">
+                <span>Favourite</span>    </a>
+</li>
+                                </ul>
+                            <ul id="action-menu-secondary" class="section-secondary aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                            
+    
+    
+    <a id="view-page-info-link" href="http://wiki.tongyufintech.cn:8090/pages/viewinfo.action?pageId=4654139" rel="nofollow" class="action-view-info" title="">
+                <span>Page Information</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="link-to-page-link" href="http://wiki.tongyufintech.cn:8090/pages/viewinfo.action?pageId=4654139" rel="nofollow" class="" title="Link to this Page">
+                <span>Link to this Page…</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="view-in-hierarchy-link" href="http://wiki.tongyufintech.cn:8090/pages/reorderpages.action?key=XDXT&amp;openId=4654139#selectedPageInHierarchy" rel="nofollow" class="" title="">
+                <span>View in Hierarchy</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="action-view-source-link" href="http://wiki.tongyufintech.cn:8090/plugins/viewsource/viewpagesrc.action?pageId=4654139" rel="nofollow" class="action-view-source popup-link" title="">
+                <span>View Source</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="action-export-pdf-link" href="http://wiki.tongyufintech.cn:8090/spaces/flyingpdf/pdfpageexport.action?pageId=4654139" rel="nofollow" class="" title="">
+                <span>Export to PDF</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="action-export-word-link" href="http://wiki.tongyufintech.cn:8090/exportword?pageId=4654139" rel="nofollow" class="action-export-word" title="">
+                <span>Export to Word</span>    </a>
+</li>
+                                </ul>
+                            <ul id="action-menu-modify" class="section-modify aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                            
+    
+    
+    <a id="action-copy-page-link" href="http://wiki.tongyufintech.cn:8090/pages/copypage.action?idOfPageToCopy=4654139&amp;spaceKey=XDXT" rel="nofollow" class="action-copy" title="">
+                <span>Copy</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                            
+    
+    
+    <a id="action-move-page-dialog-link" href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139" rel="nofollow" class="action-move" title="">
+                <span>Move</span>    </a>
+</li>
+                                </ul>
+                    </div>
+    </li>
+            </ul>
+    </div>
+
+            
+            <div id="title-heading" class="pagetitle with-breadcrumbs">
+                
+                                    <div id="breadcrumb-section">
+                        
+    
+    
+    <ol id="breadcrumbs">
+                    
+                
+        <li class="first">
+                
+
+                    <span class=""><a href="http://wiki.tongyufintech.cn:8090/collector/pages.action?key=XDXT">Pages</a></span>
+                                                </li><li id="ellipsis" title="Show all breadcrumbs"><span><strong>…</strong></span></li>
+                                    
+                
+        <li class="hidden-crumb">
+                
+
+                    <span class=""><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4653810">风控系统 Home</a></span>
+                                        
+                
+        </li><li class="hidden-crumb">
+                
+
+                    <span class=""><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4653814">XDXT-产品需求</a></span>
+                            
+                
+        </li><li>
+                
+
+                    <span class=""><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4653821">XDXT-产品-开发中</a></span>
+                </li></ol>
+
+
+                    </div>
+                
+                
+        <a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#page-banner-end" class="assistive">Skip to end of banner</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div id="page-metadata-banner" style="visibility: visible;"><ul class="banner"><li id="system-content-items" class="noprint"><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139" title="Restrictions apply" id="content-metadata-page-restrictions" class="hidden"><img class="page-banner-item-icon" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/red_padlock.png" style="height: 16px; width: 16px;"></a><a href="http://wiki.tongyufintech.cn:8090/pages/viewpageattachments.action?pageId=4654139&amp;metadataLink=true" title="130 attachments" id="content-metadata-attachments"><img class="page-banner-item-icon" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/grey_attach.png" style="height: 16px; width: 16px;"></a></li><li class="page-metadata-item noprint has-button" id="content-metadata-jira-wrapper"><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><img class="page-banner-item-icon" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/icon-jira-link.png" style="height: 16px; width: 16px;"><span>JIRA links</span></a></li></ul></div>
+            
+
+<a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#page-banner-start" class="assistive">Go to start of banner</a>
+<div id="page-banner-end" class="assistive"></div>
+    
+
+                <h1 id="title-text" class="with-breadcrumbs">
+                                                <a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139">V20190219_PRD-借款管理/风控管理_V20190228</a>
+                                    </h1>
+            </div>
+        </div><!-- \#main-header -->
+        
+        
+
+        <div id="sidebar-container">
+                                                </div><!-- \#sidebar-container -->
+
+        
+    
+
+        
+
+
+
+
+        
+
+    
+    
+        
+    
+    
+                    
+    
+
+                        
+    
+    
+
+    
+
+
+
+
+<div id="content" class="page view">
+    
+
+<div id="action-messages">
+                        </div>
+
+
+
+        <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+        
+    
+            
+
+        
+                            
+    
+
+                    
+
+        
+        <a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#page-metadata-end" class="assistive">Skip to end of metadata</a>
+<div id="page-metadata-start" class="assistive"></div>
+
+    <div class="page-metadata">
+        <ul>
+            <li class="page-metadata-modification-info">
+                
+        
+    
+        
+    
+        
+        
+            Created by <span class="author">     <a href="http://wiki.tongyufintech.cn:8090/display/~zhaojie" class="url fn confluence-userlink userlink-0" data-username="zhaojie" title="" data-user-hover-bound="true">赵杰</a></span>, last modified on <a class="last-modified" title="Feb 27, 2019 22:56" href="http://wiki.tongyufintech.cn:8090/pages/diffpagesbyversion.action?pageId=4654139&amp;selectedPageVersions=76&amp;selectedPageVersions=77">Feb 27, 2019</a>
+                </li>
+        </ul>
+    </div>
+
+
+<a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#page-metadata-start" class="assistive">Go to start of metadata</a>
+<div id="page-metadata-end" class="assistive"></div>
+
+        
+                                
+        <div id="main-content" class="wiki-content">
+                           
+        <div class="table-wrap"><table class="confluenceTable"><thead><tr><th colspan="1" class="confluenceTh"><strong>文档版本</strong></th><th colspan="1" class="confluenceTh"><strong>更新时间</strong><strong> </strong></th><th colspan="1" class="confluenceTh"><strong>变更人</strong><strong> </strong></th><th colspan="1" class="confluenceTh"><strong>变更原因</strong><strong> </strong></th><th colspan="1" class="confluenceTh"><strong>PMO</strong><strong>确认</strong><strong> </strong></th></tr><tr><td class="confluenceTd"><p style="text-align: center;">V1.0.0</p></td><td class="confluenceTd"><p>2018/12/22</p></td><td class="confluenceTd"><p><a class="confluence-userlink user-mention userlink-0" data-username="zhaojie" href="http://wiki.tongyufintech.cn:8090/display/~zhaojie" data-linked-resource-id="4030799" data-linked-resource-type="userinfo" data-base-url="http://47.96.87.183:8090" title="" data-user-hover-bound="true">赵杰</a></p></td><td class="confluenceTd"><p>创建</p></td><td class="confluenceTd"><p>&nbsp;</p></td></tr><tr><td class="confluenceTd"><p style="text-align: center;">V1.0.1</p></td><td class="confluenceTd">&nbsp;</td><td class="confluenceTd">&nbsp;</td><td class="confluenceTd">&nbsp;</td><td class="confluenceTd">&nbsp;</td></tr></thead></table></div><p><br>评审前各方确认。</p><div class="table-wrap"><table class="confluenceTable"><thead><tr><td class="confluenceTd"><p align="center"><strong>角色</strong><strong> </strong></p></td><td class="confluenceTd"><p align="center"><strong>姓名</strong><strong> </strong></p></td><td class="confluenceTd"><p align="center"><strong>确认者姓名</strong><strong> </strong></p></td><td class="confluenceTd"><p align="center"><strong>确认日期</strong><strong> </strong></p></td></tr></thead><tbody><tr><td class="confluenceTd"><p align="center"><strong>业务对接人</strong></p></td><td class="confluenceTd"><a class="confluence-userlink user-mention userlink-1" data-username="luchao" href="http://wiki.tongyufintech.cn:8090/display/~luchao" data-linked-resource-id="753708" data-linked-resource-type="userinfo" data-base-url="http://47.96.87.183:8090" title="" data-user-hover-bound="true">卢超</a></td><td class="confluenceTd">&nbsp;</td><td class="confluenceTd"><p>&nbsp;</p></td></tr><tr><td class="confluenceTd"><p align="center"><strong>技术</strong><strong>owner</strong></p></td><td class="confluenceTd"><p><a class="confluence-userlink user-mention userlink-2" data-username="liangjm" href="http://wiki.tongyufintech.cn:8090/display/~liangjm" data-linked-resource-id="4656025" data-linked-resource-type="userinfo" data-base-url="http://47.96.87.183:8090" title="" data-user-hover-bound="true">梁钧铭 </a></p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td></tr><tr><td class="confluenceTd"><p align="center"><strong>QA Owner</strong></p></td><td class="confluenceTd"><p><a class="confluence-userlink user-mention userlink-3" data-username="liushuang" href="http://wiki.tongyufintech.cn:8090/display/~liushuang" data-linked-resource-id="4031228" data-linked-resource-type="userinfo" data-base-url="http://47.96.87.183:8090" title="" data-user-hover-bound="true">刘双</a></p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td></tr></tbody></table></div><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-一、项目背景">一、项目背景&nbsp; &nbsp;</h1><p>新系统</p><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-二、项目目标">二、项目目标</h1><p>1、实现借款订单按人平均分配</p><p>2、实现通过（放款）、拒绝功能</p><p>3、实现续借自动放款</p><p><span style="color: rgb(255,0,0);"><s>4、实现后台控制展期功能</s></span></p><p>5、实现销户功能</p><p>6、实现重新认证、加入黑名单功能</p><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-三、后续规划">三、后续规划</h1><p>1、风控操作放款和拒绝时需微信扫码，二次确定；</p><p><span style="color: rgb(255,0,0);">2，全平台“人脸认证”按钮文案更换为“用户信息”</span></p><p><span style="color: rgb(255,0,0);">3，一期不做开启展期功能；</span></p><p><span style="color: rgb(255,0,0);">4，后期可能会做针对一个产品的展期开关；</span></p><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-四、前置条件"><span style="color: rgb(255,0,0);">四、前置条件</span></h1><p><span style="color: rgb(255,0,0);">1，数据来源：</span></p><p><span style="color: rgb(255,0,0);">&nbsp; &nbsp; &nbsp;用户在app端发起借款申请；</span></p><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-五、功能需求">五、功能需求</h1><p>1、风控管理页面</p><p>&nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" width="800" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-19%2017%3A40%3A13.png?version=1&amp;modificationDate=1550569215000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-19%2017%3A40%3A13.png?version=1&amp;modificationDate=1550569215000&amp;api=v2"></p><p>&nbsp; &nbsp; 1）查询项，每次刷新列表，要加载上一次选择的筛选条件；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A、借款状态：下拉框选择</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-14%2013%3A45%3A44.png?version=1&amp;modificationDate=1550123148000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-14%2013%3A45%3A44.png?version=1&amp;modificationDate=1550123148000&amp;api=v2"></p><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">状态</th><th class="confluenceTh">描述</th></tr><tr><td class="confluenceTd">待分配</td><td class="confluenceTd">发起借款申请，未分配的借款订单</td></tr><tr><td class="confluenceTd">待审核</td><td class="confluenceTd">分配后的借款订单</td></tr><tr><td class="confluenceTd">审核通过</td><td class="confluenceTd">操作人工通过后，借款订单状态为审核通过</td></tr><tr><td class="confluenceTd">审核拒绝</td><td class="confluenceTd">借款订单状态为审核拒绝</td></tr><tr><td class="confluenceTd">打款中</td><td class="confluenceTd">发起第三方支付请求，状态为打款中</td></tr><tr><td class="confluenceTd">打款失败</td><td class="confluenceTd">因第三方原因导致打款失败的订单</td></tr><tr><td class="confluenceTd">还款中</td><td class="confluenceTd">成功打款的借款订单，包含展期中</td></tr><tr><td class="confluenceTd">展期待支付</td><td class="confluenceTd"><span>在app上点击申请展期，还未进行支付的借款订单</span></td></tr><tr><td class="confluenceTd">展期中</td><td class="confluenceTd">正在进行展期的借款订单</td></tr><tr><td class="confluenceTd">已还款</td><td class="confluenceTd">成功全额还款的借款订单，包含正常还款的和逾期还款的</td></tr><tr><td colspan="1" class="confluenceTd">逾期中</td><td colspan="1" class="confluenceTd">正在逾期的借款订单</td></tr></tbody></table></div><p><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-2%2011%3A26%3A31.png?version=1&amp;modificationDate=1549077994000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-2%2011%3A26%3A31.png?version=1&amp;modificationDate=1549077994000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B、借款次数：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; a、初借：用户首次发起的借款申请；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; b、续借：当用户第一次成功还款后，第二次及第二次以后的借款订单称为续借；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2018-12-22%2014%3A36%3A54.png?version=1&amp;modificationDate=1545460657000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-22%2014%3A36%3A54.png?version=1&amp;modificationDate=1545460657000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C、注册渠道：下拉框选择，平台添加的注册渠道，第一个为全部，其余的按照渠道编号倒序排序，如下图：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;展示规则：编号-渠道名称；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-external-resource" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654255/image2019-2-13%2023%3A18%3A6.png?version=1&amp;modificationDate=1550071089000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/attachments/4654255/image2019-2-13%2023%3A18%3A6.png?version=1&amp;modificationDate=1550071089000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D、风控员：下拉框选择；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;第一个为全部，其余的是系统添加的风控人员，按时间倒序排序；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-1-29%2010%3A6%3A18.png?version=1&amp;modificationDate=1548727580000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-1-29%2010%3A6%3A18.png?version=1&amp;modificationDate=1548727580000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a，其余为风控名字：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a1，当员工状态为禁用时，在员工名称后边加（禁用）提示；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a2，显示顺序：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 禁用的显示在筛选项的最下面；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b，组长默认选中自己；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c，管理员默认选中全部；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; E、客户：姓名和手机号前缀查询，不可输入特殊字符，可输入" · "，不支持全角，如果带汉字则认为是名字，如果无汉字则认为是手机号；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; F、申请日期：用户申请借款的日期区间查询；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; G、打款日期：第三方支付返回成功打款日期；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; H、展期次数：对单笔借款订单展期次数的区间查询，只能输入0≥的整数，第一个输入框为最小值，第二个输入框为最大值，最高可输入99，输入值超过99自动变为99；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I、应还日期：用户借款应还的日期区间查询，如果用户进行展期，应还时间要顺延；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; J、实还日期：用户实际还款的日期；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; K、风控任务：快捷查询项，选中改变字体颜色，组长默认选中“我的任务”；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，只有风控组长有该快捷查询项；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，小组任务：查询组内全部任务，点击按钮，”风控“查询项选中全部；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c，我的任务：查询属于自己的任务，点击按钮，”风控“查询项选中自己</p><p>&nbsp; &nbsp; 2）各角色打开列表展示内容</p><p>权限表格</p><div class="table-wrap"><table class="confluenceTable"><thead><tr><th class="confluenceTh"><div class="tablesorter-header-inner"><span style="color: rgb(0,51,102);">&nbsp;</span></div></th><th class="confluenceTh"><div class="tablesorter-header-inner"><span style="color: rgb(0,51,102);">风控任务快捷查询按钮</span></div></th><th class="confluenceTh"><div class="tablesorter-header-inner"><span style="color: rgb(0,51,102);">风控筛选项</span></div></th><th class="confluenceTh"><div class="tablesorter-header-inner"><span style="color: rgb(0,51,102);">导出</span></div></th><th class="confluenceTh"><div class="tablesorter-header-inner"><span style="color: rgb(0,51,102);">手动分配风控</span></div></th><th class="confluenceTh"><div class="tablesorter-header-inner"><span style="color: rgb(0,51,102);">按查询条件自动分配风控</span></div></th><th class="confluenceTh"><div class="tablesorter-header-inner"><span style="color: rgb(0,51,102);">其他筛选项</span></div></th></tr></thead><tbody><tr><td class="confluenceTd"><span style="color: rgb(0,51,102);">风控专员</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td></tr><tr><td class="confluenceTd"><span style="color: rgb(0,51,102);">风控组长</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td></tr><tr><td class="confluenceTd"><span style="color: rgb(0,51,102);">管理员</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td></tr><tr><td class="confluenceTd"><span style="color: rgb(0,51,102);">其他</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">&nbsp;</span></td><td class="confluenceTd"><span style="color: rgb(0,51,102);">√</span></td></tr></tbody></table></div><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A，风控专员</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 查询项：展示除任务以外全部查询项，不展示风控查询项；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 列表：分配给自己的全部任务；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 按钮：根据权限划分；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B，风控组长</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 查询项：展示全部查询项，风控查询项内只包含组内成员；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 列表：分配给组长和组员的全部任务</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 按钮：根据权限划分；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C，其他角色</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 查询项：展示除任务以外的全部查询项；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 展示待分配笔数和待审核笔数；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 列表：展示全量数据；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 按钮：根据权限划分；</p><p>&nbsp; &nbsp; 3）列表</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;排序：按借款订单申请时间倒序排序；</p><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">名称</th><th class="confluenceTh">描述</th><th class="confluenceTh">举例</th><th class="confluenceTh">备注</th></tr><tr><td class="confluenceTd">复选框</td><td class="confluenceTd">用户分配任务时进行多选；</td><td class="confluenceTd"><img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-2%2011%3A33%3A52.png?version=1&amp;modificationDate=1549078434000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-2%2011%3A33%3A52.png?version=1&amp;modificationDate=1549078434000&amp;api=v2"></td><td class="confluenceTd">&nbsp;</td></tr><tr><td class="confluenceTd">编号</td><td class="confluenceTd">自增借款ID编号，从1开始，每一笔借款生成一个借款编号；</td><td class="confluenceTd">125</td><td class="confluenceTd">&nbsp;</td></tr><tr><td class="confluenceTd">姓名</td><td class="confluenceTd">用户实名认证姓名；</td><td class="confluenceTd">张三</td><td class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">手机号</td><td colspan="1" class="confluenceTd">用户手机号，列表手机号显示前3后4，中间的4为用****代替；</td><td colspan="1" class="confluenceTd">155****5555</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">注册渠道</td><td colspan="1" class="confluenceTd">用户注册进来的渠道；</td><td colspan="1" class="confluenceTd">0001本站</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">借款金额</td><td colspan="1" class="confluenceTd">实际放款金额，无数据时用-代替展示；</td><td colspan="1" class="confluenceTd"><p>未通过：-</p><p>通过：1,000</p></td><td colspan="1" class="confluenceTd">系统所有金额数字都用分位符的方式展示，3位一分，单位元；</td></tr><tr><td colspan="1" class="confluenceTd">期限</td><td colspan="1" class="confluenceTd">借款订单的周期；</td><td colspan="1" class="confluenceTd">7</td><td colspan="1" class="confluenceTd">目前本产品只支持7天；</td></tr><tr><td colspan="1" class="confluenceTd">次数</td><td colspan="1" class="confluenceTd">用户的借款次数，首次借款次数为1，后续每次借款+1；</td><td colspan="1" class="confluenceTd">8</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">借款日期</td><td colspan="1" class="confluenceTd">用户申请借款订单的日期，年月日时分秒；</td><td colspan="1" class="confluenceTd">2019-02-02 11:56:21</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">打款日期</td><td colspan="1" class="confluenceTd">借款订单通过审核，实际打款日期，以第三方返回的状态时间为准，年月日时分秒展示；</td><td colspan="1" class="confluenceTd"><p><span>未通过：-</span></p><p><span>通过：2019-02-02 12:09:41</span></p></td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">应还日期</td><td colspan="1" class="confluenceTd">借款订单的应还日期，展期的订单在应还日期上在顺延相应的展期天数，年月日时分秒展示，临界点：23时59分59秒；</td><td colspan="1" class="confluenceTd"><p>未通过：-</p><p>通过：2019-02-02 23:59:59</p></td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">实还日期</td><td colspan="1" class="confluenceTd">借款订单实际还款日期，以第三方返回的成功状态时间为准，年月日时分秒，只有结清才记录实还日期；</td><td colspan="1" class="confluenceTd"><p>未还款：-</p><p>已还款：2019-02-02 12:09:41</p></td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">申请金额</td><td colspan="1" class="confluenceTd">用户在发起借款时，输入的申请金额；</td><td colspan="1" class="confluenceTd">3,000</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">风控</td><td colspan="1" class="confluenceTd">风控主管分配的风控组长或风控专员；</td><td colspan="1" class="confluenceTd"><p>未分配：-</p><p>已分配：02王五</p></td><td colspan="1" class="confluenceTd"><p><span style="color: rgb(255,0,0);">风控为按人分配；</span></p><p><span style="color: rgb(255,0,0);">客户发起续借订单，风控自动分配为初始分配的风控；</span></p></td></tr><tr><td colspan="1" class="confluenceTd">备注</td><td colspan="1" class="confluenceTd"><p>点击备注打开用户详情弹窗，选中客户备注-贷前备注tab；</p><p>该客户只要有贷前备注，按钮就高亮显示；</p></td><td colspan="1" class="confluenceTd"><p>无贷前备注：<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-2%2017%3A40%3A53.png?version=1&amp;modificationDate=1549100455000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-2%2017%3A40%3A53.png?version=1&amp;modificationDate=1549100455000&amp;api=v2"></p><p>有贷前备注：<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-2%2017%3A41%3A9.png?version=1&amp;modificationDate=1549100472000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-2%2017%3A41%3A9.png?version=1&amp;modificationDate=1549100472000&amp;api=v2"></p></td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">展期次数</td><td colspan="1" class="confluenceTd">借款订单的展期次数，无数据显示0；</td><td colspan="1" class="confluenceTd">1</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">逾期天数</td><td colspan="1" class="confluenceTd">当前订单的逾期天数，无数据则显示0；</td><td colspan="1" class="confluenceTd">0</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">逾期费用</td><td colspan="1" class="confluenceTd">当前订单的逾期费用，无数据则显示0；</td><td colspan="1" class="confluenceTd">100</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">状态</td><td colspan="1" class="confluenceTd">当前订单的状态；</td><td colspan="1" class="confluenceTd">待审核</td><td colspan="1" class="confluenceTd">&nbsp;</td></tr><tr><td colspan="1" class="confluenceTd">系统备注</td><td colspan="1" class="confluenceTd">系统自动拒绝借款申请的备注；</td><td colspan="1" class="confluenceTd"><p>无备注：-</p><p>有备注：年龄&lt;=20</p></td><td colspan="1" class="confluenceTd">平台自动拒绝规则：运营商&lt;=6个月、通讯录&lt;=20、静默天数&gt;=50天、年龄&lt;=20、近一周通话为0，手机号逾期；</td></tr></tbody></table></div><p>&nbsp; &nbsp; 4）列表统计</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A，总笔数：还款中，展期中，逾期中的借款总笔数；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B，借款总额（元）：还款中，展期中，逾期中的借款金额总和；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C，待还总额（元）：还款中，展期中，逾期中的待还金额总和；</p><p>&nbsp; &nbsp; 5）分页</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 同系统默认；</p><p>&nbsp; &nbsp; 6）导出</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A，按查询结果导出；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B，导出模板：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/%E5%80%9F%E6%AC%BE%E7%AE%A1%E7%90%86%E5%AF%BC%E5%87%BA%E6%A8%A1%E6%9D%BF.xlsx?version=1&amp;modificationDate=1548743604000&amp;api=v2">借款管理导出模板.xlsx</a></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C，导出条数：最大5000条；从当前列表页面开始；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;例：当前在第5页，则从第5页开始数5000条；</p><p>&nbsp; &nbsp; 7）分配任务：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A，选择借款订单复选框；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如无选中，点击分配任务按钮，toast提示：请选择要分配的订单；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B，点击分配任务按钮，判断是否选中已分配的借款订单：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a，有已分配借款订单，弹窗如下：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-1%2011%3A34%3A37.png?version=1&amp;modificationDate=1548992080000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-1%2011%3A34%3A37.png?version=1&amp;modificationDate=1548992080000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a1，点击确认，关闭当前弹窗，弹出分配弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a2，点击取消，关闭当前弹窗，返回列表；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b，无已分配借款订单，打开分配弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C，分配弹窗：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" width="400" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-2%2014%3A19%3A13.png?version=1&amp;modificationDate=1549088355000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-2%2014%3A19%3A13.png?version=1&amp;modificationDate=1549088355000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a、手动分配风控按钮为权限；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;b、组长也作为组员中的一员，显示在第一位；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c、当风控总监点击“06张三（组）”时，他和他的组员则全部选中，反之则全部取消；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; d、可针对风控单个点击选中或者取消选中；</p><p><span style="color: rgb(255,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(0,0,0);"> &nbsp; &nbsp;&nbsp;e，分配后的客户跟进状态为“待审核”；</span></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;f、分配任务弹窗不展示禁用的风控；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; g、点击确认时，将列表中复选框选中的借款订单，按轮巡的方式，平均分配给每个风控；</p><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">风控名称</th><th class="confluenceTh">06张三</th><th class="confluenceTh">24李四</th><th class="confluenceTh">12王五</th><th class="confluenceTh">15马六</th><th class="confluenceTh">01小明</th><th class="confluenceTh">02小红</th><th class="confluenceTh">03小李</th></tr><tr><td class="confluenceTd">分配数量：21</td><td class="confluenceTd">3</td><td class="confluenceTd">3</td><td class="confluenceTd">3</td><td class="confluenceTd">3</td><td class="confluenceTd">3</td><td class="confluenceTd">3</td><td class="confluenceTd">3</td></tr><tr><td colspan="1" class="confluenceTd">分配数量：20</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">2</td></tr><tr><td colspan="1" class="confluenceTd">分配数量：18</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">2</td><td colspan="1" class="confluenceTd">2</td><td colspan="1" class="confluenceTd">2</td></tr></tbody></table></div><p><span style="color: rgb(255,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/image2019-2-20 11_13_33.png" data-image-src="/download/attachments/4654139/image2019-2-20%2011%3A13%3A33.png?version=1&amp;modificationDate=1550632416000&amp;api=v2"></span></p><p><span style="color: rgb(255,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; g1，点击确认时，加载分配中弹窗；</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; h、分配成功，弹窗提示，如下图：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2019-2-11%2014%3A24%3A25.png?version=1&amp;modificationDate=1549866285000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-11%2014%3A24%3A25.png?version=1&amp;modificationDate=1549866285000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; h1，当人员数量超出弹框后，展示滚动条，下拉时，表头固定；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; h2，弹窗文案提示：共分配xx个借款订单；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; h3<span style="color: rgb(255,0,0);"><span style="color: rgb(0,51,102);">，</span><span style="color: rgb(0,0,0);">如果有任务失败，文案提示：共分配xx个借款订单，其中xx个借款订单分配失败，请重新分配；</span></span></p><p>&nbsp; &nbsp; 8）按查询结果自动分配风控；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A， 点击按钮，弹窗如下：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，判断是否包含已分配客户，判断规则同手动分配客服；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，分配的内容为查询结果；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c，分配规则同手动分配客服规则；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;d，分配弹窗如下：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="400" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-2%2014%3A19%3A5.png?version=1&amp;modificationDate=1549088348000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-2%2014%3A19%3A5.png?version=1&amp;modificationDate=1549088348000&amp;api=v2"></p><p>2、用户详情页面：</p><p>&nbsp; &nbsp; &nbsp;交互方式：点击列表“姓名”列，右侧弹出客户详情弹窗</p><p>&nbsp; &nbsp; &nbsp;1）借款信息：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-27%2022%3A56%3A42.png?version=1&amp;modificationDate=1551279406000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-27%2022%3A56%3A42.png?version=1&amp;modificationDate=1551279406000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A、累计借款：用户累计借款的金额；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B、累计待还：用户待还金额，待还本金+利息+逾期费；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C、信用额度：当前用户的授信额度，授信额度影响用户的借款金额；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;输入框只能输入大于等于0，且小于10000的整数；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D、保存：点击保存，判断信用额度输入框是否合法：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如不是数字，toast提示：请输入正确的信用额度；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如果大于10000，toast提示：信用额度最高10000，请重新输入；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;如果小于<span style="color: rgb(255,0,0);">1000</span>，toast提示：信用额度最低<span style="color: rgb(255,0,0);">1000</span>，请重新输入；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 其他情况，弹窗如下图：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2018-12-22%2016%3A12%3A43.png?version=1&amp;modificationDate=1545466406000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-22%2016%3A12%3A43.png?version=1&amp;modificationDate=1545466406000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，点击是，成功修改用户额度，刷新用户详情弹窗，toast提示：修改成功；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，点击否，关闭当前弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E、加入黑名单：点击弹窗下图</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-1%2014%3A22%3A38.png?version=1&amp;modificationDate=1549002162000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-1%2014%3A22%3A38.png?version=1&amp;modificationDate=1549002162000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a，理由：必填项，下拉选择项，系统添加的理由：客服部、催收部提出风险警示，超过逾期天数，逾期后三方代偿，员工库，其他；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b，详情：必填项，输入备注内容，多行文本框，不限制输入类型，最多400字符；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c，点击提交按钮</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c1，判断是否选择理由，如未选择，toast提示：请选择理由；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c2，判断是否输入详情，如未输入，toast提示：请输入详情；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c3，判断当前用户是否有进行中的借款订单：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如果有，不关闭弹窗，toast提示，当前用户有正在进行的交易，不可以加入黑名单；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如果没有，关闭弹窗，刷新列表。toast提示：加入黑名单成功；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; d，加入黑名单后，用户则不可以再次发起借款，App展示内容为用户拒绝状态的内容；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; F、注销：</p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a，点击判断当前客户是否有进行中的借款：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a1，有<span style="color: rgb(0,0,0);">进行中的</span>借款，弹窗提示：当前用户有正在进行的借款，不可以注销；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2019-2-12%2016%3A33%3A33.png?version=1&amp;modificationDate=1549960414000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-12%2016%3A33%3A33.png?version=1&amp;modificationDate=1549960414000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a2，无借款，弹窗内容如下：</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2019-2-12%2016%3A34%3A7.png?version=1&amp;modificationDate=1549960447000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-12%2016%3A34%3A7.png?version=1&amp;modificationDate=1549960447000&amp;api=v2"></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 选择是，关闭弹窗，用户成功注销，刷新列表。toast提示：注销成功；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 选择否，关闭当前弹窗；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; G、借款记录：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-27%2022%3A55%3A13.png?version=1&amp;modificationDate=1551279317000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-27%2022%3A55%3A13.png?version=1&amp;modificationDate=1551279317000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a，点击借款记录列表，在当前弹窗上右侧弹窗，展示该借款的详细信息</span><span style="color: rgb(0,0,0);">&nbsp;&nbsp;</span></p><p>&nbsp; &nbsp; 2）认证信息</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-1%2011%3A58%3A50.png?version=1&amp;modificationDate=1548993534000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-1%2011%3A58%3A50.png?version=1&amp;modificationDate=1548993534000&amp;api=v2"></p><p>&nbsp;<span style="color: rgb(0,0,0);"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A，基本信息：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，注册渠道：用户注册的来源渠道；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，手机版本：用户最后一次登录的手机版本；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c，手机型号：<span style="color: rgb(0,0,0);">用户最后一次登录</span>的手机型号；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;d，APP版本：用户最后一次打开的APP版本；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B，图中所展示的资料全部由用户在APP端上传；&nbsp;&nbsp;</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C，重新认证身份证：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，点击判断当前客户是否有借款？</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a1，有借款，弹窗提示：当前用户有正在进行的借款，不可以重置；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail confluence-external-resource" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-1-31%2016%3A26%3A9.png?version=1&amp;modificationDate=1548923169000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-1-31%2016%3A26%3A9.png?version=1&amp;modificationDate=1548923169000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a2，无借款，弹窗内容如下：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail confluence-external-resource" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2018-12-21%2018%3A49%3A11.png?version=1&amp;modificationDate=1545389393000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2018-12-21%2018%3A49%3A11.png?version=1&amp;modificationDate=1545389393000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;选择是，该用户在app中可重新认证实名资料，toast提示：设置成功；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;选择否，关闭弹窗；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D，修改姓名/修改手机号；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-external-resource" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654060/image2019-1-31%2017%3A8%3A55.png?version=1&amp;modificationDate=1548925737000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/attachments/4654060/image2019-1-31%2017%3A8%3A55.png?version=1&amp;modificationDate=1548925737000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，点击修改，文本框变为输入框，展示保存和取消按钮；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，修改姓名，</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b1，点击保存：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;文案：确认修改姓名为XX？</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail confluence-external-resource" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-1-31%2016%3A58%3A18.png?version=1&amp;modificationDate=1548925099000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-1-31%2016%3A58%3A18.png?version=1&amp;modificationDate=1548925099000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b1-1，点击是，toast提示：修改成功；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 关闭当前弹窗，刷新用户详情弹窗；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b1-2，点击否，关闭当前弹窗，返回用户详情弹窗；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b2，点击取消：输入框变为文本框，展示“修改”按钮；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c，修改手机号</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c1，点击保存：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;判断是否输入1开头且11位数字；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如不是，弹窗提示：请输入正确的手机号；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-14%209%3A51%3A27.png?version=1&amp;modificationDate=1550109091000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-14%209%3A51%3A27.png?version=1&amp;modificationDate=1550109091000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;是<span style="color: rgb(0,0,0);">1开头且11位数字，</span>文案：确认修改手机号为XX？</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail confluence-external-resource" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-1-31%2016%3A59%3A53.png?version=1&amp;modificationDate=1548925194000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-1-31%2016%3A59%3A53.png?version=1&amp;modificationDate=1548925194000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c1-1，点击是，toast提示：修改成功；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 关闭当前弹窗，刷新用户详情弹窗；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c1-2，点击否，关闭当前弹窗，返回用户详情弹窗；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b2，点击取消：输入框变为文本框，展示“修改”按钮；</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b3，如果修改后的手机号，在系统中已注册，弹窗提示：</span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail confluence-external-resource" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-2-11%2021%3A43%3A39.png?version=1&amp;modificationDate=1549892619000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654060/image2019-2-11%2021%3A43%3A39.png?version=1&amp;modificationDate=1549892619000&amp;api=v2"></span></p><p><span style="color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;点击确定关闭弹窗，不修改手机号，返回用户详情弹窗；</span></p><p>&nbsp; &nbsp; 3）联系人</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-1-29%2010%3A48%3A7.png?version=1&amp;modificationDate=1548730089000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-1-29%2010%3A48%3A7.png?version=1&amp;modificationDate=1548730089000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A，紧急联系人：用户填写的2位紧急联系人，展示姓名，手机号，关系；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B，本人其他电话：用户的绑定银行卡手机号与注册手机号不一致，在此处展示；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C，通讯录：显示共X人，展示姓名，手机号；</p><p>&nbsp; &nbsp; 4）绑定银行卡</p><p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-1-29%2010%3A55%3A44.png?version=1&amp;modificationDate=1548730545000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-1-29%2010%3A55%3A44.png?version=1&amp;modificationDate=1548730545000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A，用户认证的银行卡展示在此处；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B，银行卡卡号显示前6后4，其余掩码显示；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C，手机号显示前3后4，其余掩码显示；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D，操作：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，如果只绑定一张银行卡，则该卡为默认代扣银行卡；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，当用户绑定多张银行卡时，可切换默认代扣银行卡（默认代扣分为系统定时代扣和催收人员提报的代扣），点击弹出展示如下；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2019-2-12%2016%3A38%3A17.png?version=1&amp;modificationDate=1549960697000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-12%2016%3A38%3A17.png?version=1&amp;modificationDate=1549960697000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b1，点击是，关闭当前弹窗，刷新用户详情弹窗，tab绑定银行卡，切换默认代扣银行卡，toast提示，切换成功；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b2，点击否，关闭当前弹窗；</p><p>&nbsp; &nbsp; 5）客户备注</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-11%2011%3A44%3A2.png?version=1&amp;modificationDate=1549856661000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-11%2011%3A44%3A2.png?version=1&amp;modificationDate=1549856661000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A，点击客户备注，默认选择贷前备注tab；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B，跟进状态：下拉框选择，必填项，分为请选择，拒绝，空号设置，停机，关机，不需要，未接，再次跟进，有意向，其他；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C，贷前备注：选填项，多行文本输入框，不限制输入类型，最多400字符；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D，提交：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，判断是否选中跟进状态，如未选择，toast提示：请选择跟进状态；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，提交后的客户备注记录：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 操作时间，姓名，角色，跟进状态，贷前备注文案内容；</p><p>&nbsp; &nbsp; 6）运营商信息</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 点击进入运营商信息页面，详情参考：<a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4656419">PRD-用户风控数据</a>；</p><p>&nbsp; &nbsp; 7）行为雷达&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;点击进入行为雷达页面，详情参考：<a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4656419">PRD-用户风控数据</a>；</p><p>&nbsp; &nbsp; 8）用户轨迹</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 点击进入用户轨迹页面，详情参考：<a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4656419">PRD-用户风控数据</a>&nbsp;；</p><p>3、借款详情</p><p>&nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-1%2014%3A35%3A53.png?version=1&amp;modificationDate=1549002957000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-1%2014%3A35%3A53.png?version=1&amp;modificationDate=1549002957000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; 1）借款基本信息，title为借款编号；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A、借款人：用户姓名；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B、手机号：页面用****代替；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C、借款金额：合同金额；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D、借款期限：借款的期限，目前只支持7天；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; E、借款日期：用户申请借款的日期，年月日时分秒；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; F、到账日期：同打款日期，年月日时分秒；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; G、应还日期：借款订单的应还日期，如果有展期，应还日期顺延，年月日时分秒；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; H、实还日期：用户实际还款的日期，如没还款，则显示- -，年月日时分秒；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I、逾期天数：该借款订单的逾期天数，没逾期显示0天；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; J、逾期费用：该借款订单的逾期费用，没费用显示0.00元；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; K、综合费用：账户管理费和信用审核费；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; L、利息：借款利息；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; M、已还金额：对该笔订单已还的金额，部分还款；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N、待还金额：合同金额+利息+逾期费-已还金额；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; O、到账银行卡：用户此次申请借款的提交的到账银行卡；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; P、到账银行：银行名称；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Q、打款渠道：此笔借款打款的第三方渠道；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R、订单号：第三方返回的订单号；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; S、借款协议：与用户签署的借款协议，显示客户姓名，橘色显示，可点击，点击新页面打开协议内容；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; T、授权扣款委托书：与用户签署的授权扣款委托书，显示客户姓名，橘色显示，可点击，点击新页面打开授权扣款委托书；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; U、备注：风控在操作通过或者拒绝时输入的内容；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; V、换卡按钮：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a，点击银行卡卡号后边的换卡按钮，判断用户是否成功打款：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a1，如成功打款，toast提示：已成功打款，不可修改到账银行卡；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a2，未成功打款（待分配，待审核，打款失败状态），弹窗如下：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-12%2016%3A50%3A50.png?version=1&amp;modificationDate=1549961451000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-12%2016%3A50%3A50.png?version=1&amp;modificationDate=1549961451000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a2-1，下拉框选择客户已绑定的银行卡；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a2-2，点击提交，关闭弹窗，刷新借款详情弹窗，toast提示：成功更换到账银行卡；&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>&nbsp; &nbsp; 2）展期信息</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2018-12-22%2019%3A1%3A11.png?version=1&amp;modificationDate=1545476514000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-22%2019%3A1%3A11.png?version=1&amp;modificationDate=1545476514000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A、排序：按创建时间倒序排序；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B、展期编号：自增ID，从1开始，每笔展期订单+1；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C、次数：用户成功展期的次数，多次发起展期但未支付，展示次数都为1；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D、天数：用户展期的天数；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; E、展期费：展期收取的费用；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; F、创建时间：创建订单的时间；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; G、状态：待支付，支付完成；</p><p>&nbsp; &nbsp; 3）还款信息：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 排序：按时间倒序排序；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-14%2010%3A0%3A44.png?version=1&amp;modificationDate=1550109648000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-14%2010%3A0%3A44.png?version=1&amp;modificationDate=1550109648000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A、金额：发生交易的金额；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B、渠道：发生交易使用的第三方支付渠道；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C、时间：创建交易的时间；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D、状态：成功or失败；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; E、类型：还款or展期；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; F、方式：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，代扣：系统到期自动扣款和催收提报代扣；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，主动：用户主动操作交易；</p><p>&nbsp; &nbsp; 4）减免信息，按审核通过时间倒序排序；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-1-29%2011%3A18%3A53.png?version=1&amp;modificationDate=1548731934000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-1-29%2011%3A18%3A53.png?version=1&amp;modificationDate=1548731934000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A、减免金额：该笔订单的减免金额，由催收操作线下还款时输入的减免金额，成功通过审核需重新计算该笔订单的金额信息；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;B、逾期金额：添加减免信息时，该笔借款订单的逾期金额（逾期费），如没有则为0；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;C、创建时间：创建该笔线下还款时的提交时间；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D、状态：审核中，审核通过；</p><p>&nbsp; &nbsp; 5）借款信息：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" width="500" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-12%2017%3A19%3A34.png?version=1&amp;modificationDate=1549963174000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-12%2017%3A19%3A34.png?version=1&amp;modificationDate=1549963174000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A、将该笔借款的流程节点都已时间轴的方式展示；</p><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">展示节点</th><th class="confluenceTh">展示内容</th></tr><tr><td class="confluenceTd">提交借款申请</td><td class="confluenceTd">提交借款申请，等待审核</td></tr><tr><td class="confluenceTd">审核通过或者拒绝</td><td class="confluenceTd"><p>1，审核通过</p><p>1）文案：</p><p>审核通过</p><p><span>操作人员：xxx（员工姓名），</span>审批额度X（借款金额）元，期限X（借款天数）天，等待打款</p><p><span>2，审核拒绝</span></p><p><span> 1）文案：</span></p><p><span>审核拒绝</span></p><p><span>操作人员：xxx（员工姓名）</span></p></td></tr><tr><td colspan="1" class="confluenceTd">重新审核</td><td colspan="1" class="confluenceTd"><p>文案：</p><p>重新审核</p><p>操作人员：xxx（员工姓名）</p></td></tr><tr><td class="confluenceTd">打款成功</td><td class="confluenceTd"><p>文案：</p><p>打款成功</p><p>打款渠道XX（打款使用的第三方支付渠道），订单号xxxxxxxxxxxxxxxx（第三方订单号）</p></td></tr><tr><td colspan="1" class="confluenceTd">打款失败</td><td colspan="1" class="confluenceTd"><p>文案：</p><p>打款失败</p><p>原因：xxxxxxxx（第三方支付公司返回的失败原因，如无返回结果，显示-）</p></td></tr><tr><td colspan="1" class="confluenceTd">重新打款</td><td colspan="1" class="confluenceTd"><p>文案：</p><p>重新打款</p><p>操作人员：<span>xxx（员工姓名）</span></p></td></tr><tr><td class="confluenceTd">展期</td><td class="confluenceTd"><p>1，线下展期</p><p>1）文案：</p><p>展期成功</p><p><span>提报人员：李四<span>（提报操作人姓名）</span>，线下展期，展期7天，收款400元，收款渠道xxx(添加的线下还款渠道)</span></p><p>2，线上展期</p><p>1）文案：</p><p>展期成功</p><p><span>线上展期，展期7天，展期费用400元，还款渠道<span>XX（还款使用的第三方支付渠道）</span></span></p></td></tr><tr><td class="confluenceTd">部分还款</td><td class="confluenceTd"><p>文案：</p><p>部分还款成功</p><p>提报人员：李四，线下还款，实际收款500元，收款渠道公户</p></td></tr><tr><td class="confluenceTd">全额还款</td><td class="confluenceTd">1，线下还款<p>1）文案：</p><p>还款成功</p><p>提报人员：李四，线下还款，实际收款1004.62元，收款渠道工作微信</p><p>2，线上还款</p><p>1）文案：</p><p>还款成功</p><p>线上还款，还款1004.62元，还款渠道汇聚</p></td></tr></tbody></table></div><p><br>&nbsp; &nbsp; 6）各个状态下的按钮展示：</p><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">借款状态</th><th class="confluenceTh">展示按钮</th></tr><tr><td class="confluenceTd">待分配、待审核状态</td><td class="confluenceTd">人工通过，人工拒绝，人脸认证；</td></tr><tr><td colspan="1" class="confluenceTd">审核通过、还款成功、打款中</td><td colspan="1" class="confluenceTd">人脸认证；</td></tr><tr><td colspan="1" class="confluenceTd">审核拒绝</td><td colspan="1" class="confluenceTd">重新审核，人脸认证；</td></tr><tr><td colspan="1" class="confluenceTd">打款失败</td><td colspan="1" class="confluenceTd">重新打款，人脸认证；</td></tr><tr><td colspan="1" class="confluenceTd">还款中<span>、展期待支付</span>、展期中</td><td colspan="1" class="confluenceTd"><span>开启展期，</span>新增还款，人脸认证；</td></tr><tr><td colspan="1" class="confluenceTd"><span>逾期中</span></td><td colspan="1" class="confluenceTd"><span>新增还款，人脸认证；</span></td></tr></tbody></table></div><p><br>&nbsp; &nbsp; 7）按钮</p><p>&nbsp; &nbsp; &nbsp; &nbsp; A、人脸认证：点击返回认证信息弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; B、人工通过：点击弹窗，如下图</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2018-12-24%2011%3A29%3A29.png?version=1&amp;modificationDate=1545622214000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-24%2011%3A29%3A29.png?version=1&amp;modificationDate=1545622214000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a、借款金额：下拉框选择，默认选择1000，</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 下拉框选择项为：1000、1200、1500、1800、2000、自定义；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;当选择自定义时，在下方展示输入框借款金额：由操作人员手动输入，只能输入大于等于0的整数；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2018-12-24%2011%3A29%3A50.png?version=1&amp;modificationDate=1545622235000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-24%2011%3A29%3A50.png?version=1&amp;modificationDate=1545622235000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2018-12-24%2011%3A33%3A44.png?version=1&amp;modificationDate=1545622469000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-24%2011%3A33%3A44.png?version=1&amp;modificationDate=1545622469000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b，借款期限：7天，目前为系统固定死的；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c，备注：选填，放款备注，多行文本框输入，不限制输入类型，可输入300字；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; d，点击提交，判断以下条件：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; d1，当借款金额下拉框选择为自定义时，判断借款金额输入框是否输入借款金额，如未输入，toast提示：请输入借款金额；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; d2，判断借款金额输入框是否输入正确，如不正确，toast提示：请输入正确借款金额；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; d3，如果正常，关闭弹窗，刷新列表，toast提示：通过成功；</p><p>&nbsp; &nbsp; &nbsp; &nbsp;C，人工拒绝：点击弹窗，如下图：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2018-12-24%2011%3A40%3A22.png?version=1&amp;modificationDate=1545622867000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-24%2011%3A40%3A22.png?version=1&amp;modificationDate=1545622867000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，备注：选填，多行文本框输入，不限制输入类型，可输入300字；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;点击确定，弹窗如下图：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2018-12-24%2011%3A40%3A41.png?version=1&amp;modificationDate=1545622886000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-24%2011%3A40%3A41.png?version=1&amp;modificationDate=1545622886000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，选择是，该用户状态变为审核拒绝，toast提示：拒绝成功；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c，选择否，关闭当前弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp;D、重新审核：点击重新审核按钮，弹窗如下图：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2018-12-24%2011%3A43%3A52.png?version=1&amp;modificationDate=1545623077000&amp;api=v2" data-image-src="/download/attachments/4654139/image2018-12-24%2011%3A43%3A52.png?version=1&amp;modificationDate=1545623077000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a，点击是，将客户从审核拒绝状态变更为待审核或者待分配（上一个状态），刷新借款详情弹窗，toast提示，重新审核成功；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b，选择否，关闭当前弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp;E、重新打款：点击重新打款按钮，弹窗如下图：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="confluence-embedded-image confluence-thumbnail" width="300" src="http://wiki.tongyufintech.cn:8090/download/thumbnails/4654139/image2019-2-1%2022%3A15%3A0.png?version=1&amp;modificationDate=1549030501000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-1%2022%3A15%3A0.png?version=1&amp;modificationDate=1549030501000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，点击是，重新发起支付请求，将打款失败状态改为打款中，关闭当前弹窗，toast提示：成功发起重新打款；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，选择否，关闭当前弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp;F，开启展期：</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;点击弹窗如下图</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image confluence-thumbnail confluence-external-resource" width="300" src="http://wiki.tongyufintech.cn:8090/download/attachments/4031106/image2018-11-23%2018%3A33%3A55.png?version=1&amp;modificationDate=1542969257000&amp;api=v2" data-image-src="http://wiki.tongyufintech.cn:8090/download/attachments/4031106/image2018-11-23%2018%3A33%3A55.png?version=1&amp;modificationDate=1542969257000&amp;api=v2"></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a，点击是，开启展期，关闭当前弹窗，toast提示：开启成功；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b，点击否，取消本次操作，关闭当前弹窗；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c，当展期开启后，开启展期按钮文案变更为“展期已开启”，且不可点击；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;d，展期只针对未逾期的借款，逾期的借款隐藏此按钮；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;e，开启展期后，当天有效，临界点23：59：59，过期后按钮重新变为开启展期；</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;f，开启展期后，app端展示“申请展期”按钮，可展期生效后可再次展期；</p><p>3、对应的权限管理：</p><p>&nbsp; &nbsp; &nbsp; 显示在客户管理下方；</p><p>&nbsp; &nbsp; &nbsp;&nbsp;<img class="confluence-embedded-image" src="http://wiki.tongyufintech.cn:8090/download/attachments/4654139/image2019-2-14%2010%3A10%3A39.png?version=1&amp;modificationDate=1550110243000&amp;api=v2" data-image-src="/download/attachments/4654139/image2019-2-14%2010%3A10%3A39.png?version=1&amp;modificationDate=1550110243000&amp;api=v2"></p><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh">模块名称</th><th class="confluenceTh">&nbsp;</th><th class="confluenceTh"><span>二级</span></th><th colspan="1" class="confluenceTh">&nbsp;</th><th colspan="1" class="confluenceTh"><span>三级</span></th></tr><tr><td rowspan="23" class="confluenceTd">借款管理</td><td rowspan="3" class="confluenceTd">按钮</td><td colspan="3" class="confluenceTd">导出</td></tr><tr><td colspan="3" class="confluenceTd">手动分配风控</td></tr><tr><td colspan="3" class="confluenceTd">自动分配风控</td></tr><tr><td rowspan="17" class="confluenceTd">tab页面</td><td rowspan="3" class="confluenceTd">借款信息</td><td rowspan="3" class="confluenceTd">按钮</td><td class="confluenceTd">修改信用额度</td></tr><tr><td class="confluenceTd">加入黑名单</td></tr><tr><td class="confluenceTd">注销</td></tr><tr><td rowspan="3" class="confluenceTd">认证信息</td><td rowspan="3" class="confluenceTd"><span>按钮</span></td><td class="confluenceTd">重新认证身份证</td></tr><tr><td class="confluenceTd">修改手机号</td></tr><tr><td class="confluenceTd">修改姓名</td></tr><tr><td colspan="3" class="confluenceTd">查看联系人</td></tr><tr><td colspan="1" class="confluenceTd">绑定银行卡</td><td colspan="1" class="confluenceTd">按钮</td><td class="confluenceTd">更改默认代扣</td></tr><tr><td class="confluenceTd"><span>贷前备注</span></td><td class="confluenceTd"><span>按钮</span></td><td class="confluenceTd"><span>提交贷前备注</span></td></tr><tr><td colspan="3" class="confluenceTd"><span>贷后催收</span></td></tr><tr><td rowspan="7" class="confluenceTd">借款详情</td><td rowspan="7" class="confluenceTd">按钮</td><td class="confluenceTd">人脸认证</td></tr><tr><td colspan="1" class="confluenceTd">人工通过</td></tr><tr><td colspan="1" class="confluenceTd">人工拒绝</td></tr><tr><td colspan="1" class="confluenceTd">重新审核</td></tr><tr><td colspan="1" class="confluenceTd">重新打款</td></tr><tr><td colspan="1" class="confluenceTd">新增还款</td></tr><tr><td colspan="1" class="confluenceTd">申请减免</td></tr><tr><td rowspan="3" class="confluenceTd">认证信息</td><td colspan="3" class="confluenceTd">运营商信息</td></tr><tr><td colspan="3" class="confluenceTd">行为雷达</td></tr><tr><td colspan="3" class="confluenceTd">用户轨迹</td></tr></tbody></table></div><p>&nbsp;</p><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-六、对现有系统的影响">六、对现有系统的影响</h1><p>&nbsp;</p><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-七、项目范围">七、项目范围</h1><div class="table-wrap"><table class="confluenceTable"><tbody><tr><td class="confluenceTd"><p>UE</p></td><td class="confluenceTd"><p>UI</p></td><td class="confluenceTd"><p>PMO</p></td><td class="confluenceTd"><p>Server RD</p></td><td class="confluenceTd"><p>FE</p></td><td class="confluenceTd"><p>技术owner</p></td></tr><tr><td rowspan="3" class="confluenceTd">&nbsp;</td><td rowspan="3" class="confluenceTd">&nbsp;</td><td rowspan="3" class="confluenceTd">&nbsp;</td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td></tr><tr><td class="confluenceTd"><p>Server QA</p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td></tr><tr><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td></tr></tbody></table></div><p><br>&nbsp;性能要求&nbsp;&nbsp;</p><div class="table-wrap"><table class="confluenceTable"><thead><tr><td class="confluenceTd"><p align="center"><strong>预计用户量</strong><strong> </strong></p></td><td class="confluenceTd"><p align="center"><strong>并发量</strong><strong> </strong></p></td><td class="confluenceTd"><p align="center"><strong>平均页面响应时间</strong><strong> </strong></p></td><td class="confluenceTd"><p align="center"><strong>数据要求</strong><strong> </strong></p></td><td class="confluenceTd"><p align="center"><strong>其它性能要求</strong><strong> </strong></p></td></tr><tr><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;</p></td></tr></thead></table></div><h1 id="V20190219_PRD-借款管理/风控管理_V20190228-八、项目风险">八、项目风险</h1><p>&nbsp;</p>
+
+                
+        
+    
+        </div>
+
+        <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="http://47.96.87.183:8090/pages/viewpage.action?pageId=4654139"
+    dc:identifier="http://47.96.87.183:8090/pages/viewpage.action?pageId=4654139"
+    dc:title="V20190219_PRD-借款管理/风控管理_V20190228"
+    trackback:ping="http://47.96.87.183:8090/rpc/trackback/4654139"/>
+</rdf:RDF>
+-->
+
+                        
+    
+
+
+
+<div id="likes-and-labels-container"><div id="likes-section"><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139" class="like-button">Like</a><span class="like-summary"></span></div><div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="4654139" entitytype="page">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right  has-pen">
+            <li class="no-labels-message">
+            No labels
+        </li>
+                <li class="labels-edit-container">
+            <a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139#" class="show-labels-editor editor-icon" title="Edit Labels">
+                <span class="icon icon-edit">Edit Labels</span>
+            </a>
+        </li>
+        </ul>
+
+    </div>
+</div></div></div>
+        
+		
+            
+
+
+
+
+            
+    
+
+
+
+
+
+
+
+
+                    
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+    
+    
+            <div class="bottom-comment-panels comment-panels">
+                                    
+    
+
+                    
+    
+
+
+    
+
+<div class="quick-comment-container comment add"><p class="comment-user-logo"><a class="userLogoLink userlink-0" data-username="zhaojie" href="http://wiki.tongyufintech.cn:8090/users/editmyprofilepicture.action" title="" data-user-hover-bound="true"><img class="userLogo logo defaultLogo" src="./V20190219_PRD-借款管理_T0管理_V20190228 - 风控系统 - Confluence_files/add_profile_pic.png" alt="User icon: Add a picture of yourself" title=""></a></p><div class="quick-comment-body"><div class="quick-comment-loading-container" style="display:none;"></div><div id="editor-messages"></div><div id="all-messages"></div><form style="display:block;" class="quick-comment-form aui" method="post" name="inlinecommentform" action="http://wiki.tongyufintech.cn:8090/pages/doaddcomment.action?pageId=4654139"><div title="Add a Comment" class="quick-comment-prompt"><span>Write a comment…</span></div></form></div></div>
+
+    
+            </div>
+    
+                        <div id="comments-actions" class="aui-toolbar noprint" style="display: none;">
+                <p class="toolbar-group">
+                    <span class="toolbar-item"><a href="http://wiki.tongyufintech.cn:8090/pages/viewpage.action?pageId=4654139&amp;showComments=true&amp;showCommentArea=true#addcomment" id="add-comment-rte" accesskey="m" class="toolbar-trigger">Add Comment</a></span>
+                </p>
+            </div>
+            </div>
+
+
+                
+    
+            
+</div>
+
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+    
+<div id="space-tools-web-items" class="hidden">
+                <div data-label="Overview" data-href="/spaces/viewspacesummary.action?key=XDXT">Overview</div>
+            <div data-label="Permissions" data-href="/spaces/spacepermissions.action?key=XDXT">Permissions</div>
+            <div data-label="Content Tools" data-href="/pages/templates2/listpagetemplates.action?key=XDXT">Content Tools</div>
+            <div data-label="Look and Feel" data-href="/spaces/choosetheme.action?key=XDXT">Look and Feel</div>
+            <div data-label="Integrations" data-href="/spaces/listentitylinks.action?typeId=com.atlassian.applinks.api.application.confluence.ConfluenceSpaceEntityType&amp;key=XDXT">Integrations</div>
+    </div>
+
+
+
+
+    </div><!-- \#main -->
+        
+    
+        
+            
+
+<div id="footer" role="contentinfo" style="margin-left: 451px;">
+    <section class="footer-body">
+
+                                        
+        
+
+        <ul id="poweredby">
+            <li class="noprint">Powered by <a href="http://www.atlassian.com/software/confluence" class="hover-footer-link">Atlassian Confluence</a> <span id="footer-build-information">5.6.6</span>, <a href="http://www.atlassian.com/software/confluence/overview/team-collaboration-software?utm_source=confluence-footer" class="hover-footer-link">Team Collaboration Software</a></li>
+            <li class="print-only">Printed by Atlassian Confluence 5.6.6, Team Collaboration Software.</li>
+            <li class="noprint"><a href="https://jira.atlassian.com/browse/CONF" class="hover-footer-link">Report a bug</a></li>
+            <li class="noprint"><a href="http://www.atlassian.com/about/connected.jsp?s_kwcid=Confluence-stayintouch" class="hover-footer-link">Atlassian News</a></li>
+        </ul>
+
+        
+
+        <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+
+                    
+        
+    </section>
+</div>
+
+            
+    
+</div>
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+
+<div id="content-hover-0" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-1" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-2" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-3" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div id="content-hover-shadow" style="display: none;"><div class="tl"></div><div class="tr"></div><div class="l"></div><div class="r"></div><div class="bl"></div><div class="br"></div><div class="b"></div></div><div id="cw-notification-container"></div><div class="qr-notice aui-message warning"></div><div id="fileuploadShim" style="position: relative; z-index: 0;"></div><div id="p1d4uh68s1m6g96llbbba41h2m0_html5_container" class="plupload html5" style="position: absolute; background: transparent; width: 1903px; height: 0px; overflow: hidden; z-index: -1; opacity: 0; top: 16251px; left: 0px;"><input id="p1d4uh68s1m6g96llbbba41h2m0_html5" style="font-size: 999px; position: absolute; width: 100%; height: 100%;" type="file" accept="" multiple="multiple"></div></body></html>
